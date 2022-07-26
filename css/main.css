@@ -1,0 +1,26 @@
+
+/* Hero */
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color)
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+
+/* Examples */
+
+.work-list .title {
+    color: var(--title-text-color);
+}
+

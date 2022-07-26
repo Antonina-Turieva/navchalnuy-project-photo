@@ -19,7 +19,7 @@
 
 body {
     background-color: var(--primary-white-color);
-    color:var(--primary-text-color);
+    color: var(--primary-text-color);
 
 }
 
@@ -34,42 +34,24 @@ body {
 .logo {
     color: var(--title-text-color);
 }
+
 .logo:hover,
 .logo:focus {
     color: var(--accent-color);
 }
+
 /* Site nav */
 
 .site-nav .link {
-color: var(--accent-color);
+    color: var(--accent-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--title-text-color);
 }
 
-/* Hero */
-
-.hero-title {
-    color: var(--title-text-color);
-}
-
-/* Section */
-
-.section-title {
-    color: var(--title-text-color)
-}
-
-/* Features */
-
-.feature-list .title {
-    color: var(--title-text-color);
-}
-
-
-/* Examples */
-
-.work-list .title {
+.site-nav .link.current {
     color: var(--title-text-color);
 }
 
@@ -83,7 +65,7 @@ color: var(--accent-color);
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    
+
 }
 
 .button.secondary {
